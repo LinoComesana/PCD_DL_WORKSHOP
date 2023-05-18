@@ -1,2 +1,3 @@
 udocker_installation
-data/synthetic_point_clouds
+**/data/synthetic_point_clouds
+**/Deep_Learning/pointnet2/log_WORKSHOP_VIERNES
