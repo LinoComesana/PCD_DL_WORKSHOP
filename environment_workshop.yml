@@ -388,7 +388,7 @@ dependencies:
     - nvidia-cuda-nvrtc-cu11==11.7.99
     - nvidia-cuda-runtime-cu11==11.7.99
     - nvidia-cudnn-cu11==8.5.0.96
-    - open3d==0.13.0+bbdefcbcc
+    - open3d==0.13.0
     - opencv-contrib-python==4.5.2.52
     - opencv-python-headless==4.6.0.66
     - packaging==21.2
