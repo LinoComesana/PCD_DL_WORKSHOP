@@ -12,17 +12,17 @@ import matplotlib.pyplot as plt
 import os
 import time
 
-NUMERO_DE_EPOCAS_GLOBAL = 20000
+NUMERO_DE_EPOCAS_GLOBAL = 10
 
 for EPOCA in range(NUMERO_DE_EPOCAS_GLOBAL):
 
-    RUTA_LOG_ABSOLUTA = '/home/lino/Documentos/programas_pruebas_varias/PointNet/pointnet2/log_prueba_sept_1'
+    RUTA_LOG_ABSOLUTA = '/home/lino/Documentos/PCD_DL_WORKSHOP/PCD_DL_WORKSHOP/Deep_Learning/pointnet2/log_WORKSHOP_VIERNES'
     
     os.chdir(RUTA_LOG_ABSOLUTA)
     
     # PRIMERO LEEMOS LOS PESOS DE LAS LABELS:
     
-    while 'label_weights_epoca_%i.npy'%(EPOCA*5) not in os.listdir():
+    while 'label_weights_epoca_%i.npy'%(EPOCA) not in os.listdir():
         print('Esperamos a que se genere el archivo...(60 s)')
         time.sleep(60)
     
@@ -68,7 +68,7 @@ for EPOCA in range(NUMERO_DE_EPOCAS_GLOBAL):
     
     # AHORA LEEMOS LAS ACCURACIES Y LOSSES:
         
-    archivo = 'prueba_sept_1_accuracies_y_losses_one_epoch.txt'
+    archivo = 'WORKSHOP_VIERNES_accuracies_y_losses_one_epoch.txt'
     
     while archivo not in os.listdir():
         time.sleep(60)

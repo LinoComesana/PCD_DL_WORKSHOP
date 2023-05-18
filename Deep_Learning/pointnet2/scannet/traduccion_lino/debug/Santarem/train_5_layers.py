@@ -45,7 +45,7 @@ nombre_sesion = 'WORKSHOP_VIERNES'
 # si vamos guay de tiempo, hacer lo mismo pero para otros valores de radios.
 
 # Numero total de epocas sobre las cuales entrenar el modelo:
-NUMERO_DE_EPOCAS = 100
+NUMERO_DE_EPOCAS = 20
 
 # Va a haber dos downsampleos, uno que es el que se hace en el propio codigo de
 # Pointnet++ (NUMERO_PUNTOS_VOXEL_PN) y otro que hago yo antes de meter las nu-
