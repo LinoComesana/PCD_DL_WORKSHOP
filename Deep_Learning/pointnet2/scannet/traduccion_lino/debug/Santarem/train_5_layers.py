@@ -1584,7 +1584,7 @@ def eval_one_epoch_PREDICCION_NUBE_REAL(sess, ops, test_writer,epoch,RUTA_LOG_AB
         # Mostramos en pantalla la fecha del momento actual y que nos encontramos 
         # en la fase de evaluacion de la epoca actual:
         log_string(str(datetime.now()))
-        log_string('---- EPOCH %03d PREDICCION NUBE REAL ----'%(epoch))
+        log_string('---- EPOCH %03d PREDICCION NUBE SIN ETIQUETAR ----'%(epoch))
     
         # Creamos unos arrays de ceros que haran referencia a los pesos de cada la-
         # bel:

@@ -666,33 +666,35 @@ class ScannetDataset():
                 # Hay que leer la nube:
                 if archivo.endswith('.npy'):
                     
-                    if archivo.startswith('Nube_artificial'):
+                    os.chdir('Nube_artificial_9')
+                    os.chdir('numpy_arrays')
+
                     
-                        # Si la nube esta en formato .las o .laz hay que pasarla a .npy
-                        # de la siguiente manera (PYTHON 3!!!)
+                    # Si la nube esta en formato .las o .laz hay que pasarla a .npy
+                    # de la siguiente manera (PYTHON 3!!!)
 
-                        '''
-                        point_cloud=lp.file.File(archivo, mode="r")    
-                        Lista_de_puntos = np.vstack((point_cloud.x, point_cloud.y, point_cloud.z)).transpose()
-                        np.save('NUBE_ENTERA_PREDICCION.npy',Lista_de_puntos)
-                        '''
+                    '''
+                    point_cloud=lp.file.File(archivo, mode="r")    
+                    Lista_de_puntos = np.vstack((point_cloud.x, point_cloud.y, point_cloud.z)).transpose()
+                    np.save('NUBE_ENTERA_PREDICCION.npy',Lista_de_puntos)
+                    '''
 
-                        point_cloud=np.load(archivo)
-                        if downsampleamos:
-                            # Hacemos un downsampleo previo:
-                            indices_seleccionados = np.random.choice(range(len(point_cloud)), 200000 , replace=False)
-                            point_cloud = point_cloud[indices_seleccionados]
-
-
-                        Lista_puntos.append(point_cloud)
-                        Lista_labels_semanticas.append(np.full(shape=(len(point_cloud),),fill_value=1))
-
-                        self.semantic_labels_list = Lista_labels_semanticas
-                        self.scene_points_list = Lista_puntos
+                    point_cloud=np.load('Nube_artificial_9.npy')
+                    if downsampleamos:
+                        # Hacemos un downsampleo previo:
+                        indices_seleccionados = np.random.choice(range(len(point_cloud)), 200000 , replace=False)
+                        point_cloud = point_cloud[indices_seleccionados]
 
 
-                        # print(Lista_de_puntos)
-                        # print(Lista_labels_semanticas)
+                    Lista_puntos.append(point_cloud)
+                    Lista_labels_semanticas.append(np.full(shape=(len(point_cloud),),fill_value=1))
+
+                    self.semantic_labels_list = Lista_labels_semanticas
+                    self.scene_points_list = Lista_puntos
+
+
+                    # print(Lista_de_puntos)
+                    # print(Lista_labels_semanticas)
 
             
             
