@@ -489,11 +489,6 @@ dependencies:
     - tensorboard-data-server==0.6.1
     - tensorboard-plugin-wit==1.8.1
     - tensorboardx==2.5.1
-    - tensorflow==2.11.0
-    - tensorflow-datasets==4.7.0
-    - tensorflow-estimator==2.11.0
-    - tensorflow-io-gcs-filesystem==0.27.0
-    - tensorflow-metadata==1.12.0
     - termcolor==1.1.0
     - terminado==0.12.1
     - testpath==0.5.0
@@ -508,7 +503,6 @@ dependencies:
     - tomli==1.2.2
     - tomlkit==0.7.2
     - toposort==1.6
-    - torch==1.13.1
     - tornado==6.1
     - tqdm==4.64.1
     - traitlets==5.1.1
