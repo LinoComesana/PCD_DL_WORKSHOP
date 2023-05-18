@@ -1,0 +1,74 @@
+Namespace(batch_size=1, decay_rate=0.7, decay_step=200000, gpu=0, learning_rate=0.001, log_dir='log_WORKSHOP_VIERNES', max_epoch=100, model='pointnet2_sem_seg_LINO_5_capas', momentum=0.9, num_point=65536, optimizer='adam')
+pid: 74084
+     
+
+**** EPOCH 000 ****
+     
+
+2023-05-18 21:00:01.734756
+mean loss: 2.051242
+accuracy: 0.492355
+train point accuracy: 0.492355
+MA: 0.492355
+Mean Loss: 2.051242
+MIoU: 0.342029
+2023-05-18 21:00:04.951639
+mean loss: 1.319923
+accuracy: 0.679886
+train point accuracy: 0.679886
+MA: 0.679886
+Mean Loss: 1.319923
+MIoU: 0.490249
+2023-05-18 21:00:07.547311
+mean loss: 0.893122
+accuracy: 0.699677
+train point accuracy: 0.699677
+MA: 0.699677
+Mean Loss: 0.893122
+MIoU: 0.612735
+2023-05-18 21:00:10.169972
+mean loss: 0.706940
+accuracy: 0.821838
+train point accuracy: 0.821838
+MA: 0.821838
+Mean Loss: 0.706940
+MIoU: 0.708140
+2023-05-18 21:00:12.806868
+mean loss: 0.619497
+accuracy: 0.551361
+train point accuracy: 0.551361
+MA: 0.551361
+Mean Loss: 0.619497
+MIoU: 0.757989
+2023-05-18 21:00:15.431477
+mean loss: 0.396067
+accuracy: 0.802795
+train point accuracy: 0.802795
+MA: 0.802795
+Mean Loss: 0.396067
+MIoU: 0.837496
+2023-05-18 21:00:18.030579
+mean loss: 0.464015
+accuracy: 0.693909
+train point accuracy: 0.693909
+MA: 0.693909
+Mean Loss: 0.464015
+MIoU: 0.817464
+2023-05-18 21:00:20.665916
+---- EPOCH 000 EVALUATION ----
+eval mean loss: 0.572861
+eval point accuracy vox: 0.991098
+eval point avg class acc vox: 0.991098
+eval point accuracy: 0.767502
+MA: 0.657784
+Mean Loss: 0.572861
+MIoU: 0.543183
+2023-05-18 21:00:22.831664
+---- EPOCH 000 EVALUATION ----
+eval mean loss: 0.676383
+eval point accuracy vox: 0.987948
+eval point avg class acc vox: 0.987948
+eval point accuracy: 0.717682
+MA: 0.592137
+Mean Loss: 0.676383
+MIoU: 0.454814

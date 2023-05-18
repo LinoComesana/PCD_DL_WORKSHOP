@@ -183,12 +183,12 @@ if not LINO:
 else:
     # Usamos mis propios datos:
     # DATASET_PATH = '/home/lino/Documentos/programas_pruebas_varias/segmentacion_python/segmentacion_bosques/aumentacion_de_datos/Nubes_artificiales_generadas/nubes_buenas/dataset_carretera_nacional'
-    DATASET_PATH = '/home/lino/Documentos/programas_pruebas_varias/segmentacion_python/segmentacion_bosques/aumentacion_de_datos/Nubes_artificiales_generadas/nubes_buenas/Nubes_artificiales_bosques'
+    DATASET_PATH = '/home/lino/Documentos/PCD_DL_WORKSHOP/PCD_DL_WORKSHOP/data/synthetic_point_clouds/SYNTHETIC_DATASET'
     
     TRAIN_DATA_PATH = DATASET_PATH +'/TRAIN'
     TEST_DATA_PATH = DATASET_PATH +'/TEST'    
     # PREDICT_DATA_PATH = '/home/lino/Documentos/programas_pruebas_varias/segmentacion_python/segmentacion_bosques/aumentacion_de_datos/Nubes_artificiales_generadas/nubes_buenas/dataset_carretera_nacional/PREDICT'
-    PREDICT_DATA_PATH = '/home/lino/Documentos/programas_pruebas_varias/segmentacion_python/segmentacion_bosques/aumentacion_de_datos/Nubes_artificiales_generadas/nubes_buenas/Nubes_artificiales_bosques/PREDICT/PREDICT'
+    PREDICT_DATA_PATH = DATASET_PATH + '/PREDICT'
     
     NUMERO_NUBES_ENTRENAMIENTO = len(os.listdir(TRAIN_DATA_PATH))
     NUMERO_NUBES_TESTEO = len(os.listdir(TEST_DATA_PATH))
