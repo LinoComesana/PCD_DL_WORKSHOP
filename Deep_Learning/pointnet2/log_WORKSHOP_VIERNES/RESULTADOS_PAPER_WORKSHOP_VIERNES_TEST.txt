@@ -1,0 +1,2 @@
+Overall Accuracy (OA)    Mean Accuracy (MA)    Mean Loss    MIoU    Epoch    NUBE_ID
+0.631011962891    0.525349561642    0.755734026432    0.617302614398    0    1

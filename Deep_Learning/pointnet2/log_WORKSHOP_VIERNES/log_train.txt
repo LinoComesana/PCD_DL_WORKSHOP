@@ -1,0 +1,131 @@
+Namespace(batch_size=1, decay_rate=0.7, decay_step=200000, gpu=0, learning_rate=0.001, log_dir='log_WORKSHOP_VIERNES', max_epoch=100, model='pointnet2_sem_seg_LINO_5_capas', momentum=0.9, num_point=65536, optimizer='adam')
+pid: 61506
+     
+
+**** EPOCH 000 ****
+     
+
+2023-05-18 18:28:25.368705
+mean loss: 2.144741
+accuracy: 0.399048
+train point accuracy: 0.399048
+MA: 0.399048
+Mean Loss: 2.144741
+MIoU: 0.274775
+2023-05-18 18:28:29.056849
+mean loss: 1.860010
+accuracy: 0.335968
+train point accuracy: 0.335968
+MA: 0.335968
+Mean Loss: 1.860010
+MIoU: 0.324894
+2023-05-18 18:28:32.164178
+mean loss: 1.680732
+accuracy: 0.507828
+train point accuracy: 0.507828
+MA: 0.507828
+Mean Loss: 1.680732
+MIoU: 0.338283
+2023-05-18 18:28:35.234108
+mean loss: 1.869535
+accuracy: 0.331741
+train point accuracy: 0.331741
+MA: 0.331741
+Mean Loss: 1.869535
+MIoU: 0.382329
+2023-05-18 18:28:38.255801
+mean loss: 1.264027
+accuracy: 0.598923
+train point accuracy: 0.598923
+MA: 0.598923
+Mean Loss: 1.264027
+MIoU: 0.428294
+2023-05-18 18:28:41.324465
+mean loss: 1.152598
+accuracy: 0.533432
+train point accuracy: 0.533432
+MA: 0.533432
+Mean Loss: 1.152598
+MIoU: 0.473569
+2023-05-18 18:28:44.391711
+mean loss: 1.304177
+accuracy: 0.315826
+train point accuracy: 0.315826
+MA: 0.315826
+Mean Loss: 1.304177
+MIoU: 0.518967
+2023-05-18 18:28:47.482200
+mean loss: 0.963165
+accuracy: 0.642395
+train point accuracy: 0.642395
+MA: 0.642395
+Mean Loss: 0.963165
+MIoU: 0.543813
+2023-05-18 18:28:50.594528
+---- EPOCH 000 EVALUATION ----
+eval mean loss: 0.648610
+eval point accuracy vox: 0.212606
+eval point avg class acc vox: 0.212606
+eval point accuracy: 0.705627
+MA: 0.519598
+Mean Loss: 0.648610
+MIoU: 0.699191
+2023-05-18 18:28:53.373822
+---- EPOCH 000 EVALUATION ----
+eval mean loss: 0.755734
+eval point accuracy vox: 0.353243
+eval point avg class acc vox: 0.353243
+eval point accuracy: 0.631012
+MA: 0.525350
+Mean Loss: 0.755734
+MIoU: 0.617303
+2023-05-18 18:28:55.787860
+---- EPOCH 000 PREDICCION NUBE REAL ----
+PREDICCION mean loss: 4.194597
+PREDICCION point accuracy vox: 0.024559
+PREDICCION point avg class acc vox: 0.024559
+PREDICCION point accuracy: 0.020874
+PREDICCION point avg class acc: 0.020874
+Model saved in file: /home/lino/Documentos/PCD_DL_WORKSHOP/PCD_DL_WORKSHOP/Deep_Learning/pointnet2/log_WORKSHOP_VIERNES/best_model_epoch_000.ckpt
+Model saved in file: /home/lino/Documentos/PCD_DL_WORKSHOP/PCD_DL_WORKSHOP/Deep_Learning/pointnet2/log_WORKSHOP_VIERNES/0_epoch_model.ckpt
+     
+
+**** EPOCH 001 ****
+     
+
+2023-05-18 18:28:59.823502
+mean loss: 1.180150
+accuracy: 0.281113
+train point accuracy: 0.281113
+MA: 0.281113
+Mean Loss: 1.180150
+MIoU: 0.568760
+2023-05-18 18:29:03.113659
+mean loss: 0.902319
+accuracy: 0.533936
+train point accuracy: 0.533936
+MA: 0.533936
+Mean Loss: 0.902319
+MIoU: 0.584824
+2023-05-18 18:29:06.239528
+mean loss: 0.859492
+accuracy: 0.729767
+train point accuracy: 0.729767
+MA: 0.729767
+Mean Loss: 0.859492
+MIoU: 0.562057
+2023-05-18 18:29:09.376420
+mean loss: 0.933989
+accuracy: 0.305466
+train point accuracy: 0.305466
+MA: 0.305466
+Mean Loss: 0.933989
+MIoU: 0.640540
+2023-05-18 18:29:12.476917
+mean loss: 0.713418
+accuracy: 0.417038
+train point accuracy: 0.417038
+MA: 0.417038
+Mean Loss: 0.713418
+MIoU: 0.673782
+2023-05-18 18:29:15.549177

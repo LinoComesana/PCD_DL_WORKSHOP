@@ -1,0 +1,3 @@
+model_checkpoint_path: "/home/lino/Documentos/PCD_DL_WORKSHOP/PCD_DL_WORKSHOP/Deep_Learning/pointnet2/log_WORKSHOP_VIERNES/0_epoch_model.ckpt"
+all_model_checkpoint_paths: "/home/lino/Documentos/PCD_DL_WORKSHOP/PCD_DL_WORKSHOP/Deep_Learning/pointnet2/log_WORKSHOP_VIERNES/best_model_epoch_000.ckpt"
+all_model_checkpoint_paths: "/home/lino/Documentos/PCD_DL_WORKSHOP/PCD_DL_WORKSHOP/Deep_Learning/pointnet2/log_WORKSHOP_VIERNES/0_epoch_model.ckpt"
