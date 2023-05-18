@@ -1,0 +1,12 @@
+name: environment_workshop
+channels:
+  - defaults
+dependencies:
+- python>=3.5
+- anaconda
+- pip
+- pip:
+  # works for regular pip packages
+  - open3d
+  - laspy
+prefix: /home/lino/anaconda3/envs/environment_workshop
