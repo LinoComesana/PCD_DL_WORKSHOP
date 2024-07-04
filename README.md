@@ -1,7 +1,7 @@
 # University of Vigo
 ## Point Cloud Simulation and Deep Learning Processing with Python Workshop
 ### author: Lino José Comesaña Cebral
-### date  : May 2023
+### date  : May 2024
 
 This repository contains Python-Notebooks and Python code for the lecture on Point Cloud Simulation and Deep Learning Processing with Python Workshop. It is **strongly recommended** to have installed both GIT and Anaconda in your computer.
 
